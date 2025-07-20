@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Recomendaciones Amazon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 280px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .product-card h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .product-card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #ff9900;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .product-card a:hover {
+      background: #e68a00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Descubre mis Productos Recomendados</h1>
+    <p>Encuentra los mejores gadgets, herramientas y accesorios desde Amazon</p>
+  </header>
+
+  <div class="container">
+    <!-- Producto 1 -->
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71A5x0pk9yL._AC_SL1500_.jpg" alt="Producto 1" />
+      <h3>Afeitadora Philips Serie 5000</h3>
+      <a href="https://www.amazon.com.mx/dp/B09H3DQKZB?tag=TU-ID-AFILIADO" target="_blank">Ver en Amazon</a>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81wOX2DRSGL._AC_SL1500_.jpg" alt="Producto 2" />
+      <h3>Audífonos Sony WH-1000XM5</h3>
+      <a href="https://www.amazon.com.mx/dp/B09YH3CCB8?tag=TU-ID-AFILIADO" target="_blank">Ver en Amazon</a>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71T1bJ5FTaL._AC_SL1500_.jpg" alt="Producto 3" />
+      <h3>Reloj Inteligente Amazfit GTS 4</h3>
+      <a href="https://www.amazon.com.mx/dp/B0BB1HGR4H?tag=TU-ID-AFILIADO" target="_blank">Ver en Amazon</a>
+    </div>
+  </div>
+</body>
+</html>
